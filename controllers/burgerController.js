@@ -2,7 +2,7 @@ var express = require("express");
 
 var router = express.Router();
 
-var cat = require("../models/burger.js");
+var burger = require("../models/burger.js");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
@@ -16,8 +16,8 @@ router.get("/", function(req, res) {
 });
 
 router.post("/api/burgers", function(req, res) {
-  burger.create(["name", "sleepy"], [req.body.name, req.body.sleepy], function(result) {
-    // Send back the ID of the new quote
+  burger.create(["name", "devoured"], [req.body.name, req.body.devoured], function(result) {
+   
     res.json({ id: result.insertId });
   });
 });
@@ -29,7 +29,7 @@ router.put("/api/burgers/:id", function(req, res) {
 
   burger.update(
     {
-      sleepy: req.body.sleepy
+      devoured: req.body.devoured
     },
     condition,
     function(result) {

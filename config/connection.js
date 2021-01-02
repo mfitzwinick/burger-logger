@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
   user: "root",
   password: "password",
   database: "burgers_db"
-});git 
+});
 
 // Make connection.
 connection.connect(function(err) {
