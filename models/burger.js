@@ -14,7 +14,15 @@ var burger = {
     ], [
       burger_name, false
     ], cb);
-  }
+  },
+  update: function(val, cond, cb) {
+    console.log(val)
+    console.log(cond)
+    orm.update("burgers", val, cond,function(res) {
+      console.log(res)
+      cb (res);
+    });
+  },
 };
 
 
