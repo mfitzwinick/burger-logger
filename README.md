@@ -1,6 +1,6 @@
 # BURGER STAND
 
-https://forthebadge.com/images/badges/makes-people-smile.svg
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
 
 ## Purpose
 
