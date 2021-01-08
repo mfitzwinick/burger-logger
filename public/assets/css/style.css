@@ -14,7 +14,7 @@ h2 {
   text-align: center;
 }
 
-.stand {
+#stand {
   margin-left: 500px;
 }
 
@@ -54,4 +54,17 @@ li {
 #burgerbtn {
   margin-left: 110px;
   background-color: #ff7f50;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  h1 {
+    text-align: left;
+    font-size: 98%;
+  }
+  #stand {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 5px;
+  }
 }
