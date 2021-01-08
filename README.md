@@ -22,7 +22,7 @@ Database: MySql
 
 - This used the MVC (Model View Control) structure. The config folder contains a connection file connecting to the MySql database. It also contains an orm (object-relational-database).
 
-- The controller folder handles the routing in burgerController.js. The db folder contains a schema and seets for the database.
+- The controller folder handles the routing in burgerController.js. The db folder contains a schema and seeds for the database.
 
 - The model folder contains the READ, CREATE and UPDATE functions.
 
