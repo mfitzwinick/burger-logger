@@ -32,9 +32,7 @@ Database: MySql
 
 ### URL Link
 
-https://git.heroku.com/burgerstand.git
-
-## Screenshot
+## Demo
 
 https://www.youtube.com/embed/YKX_XpT2uS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe
 
